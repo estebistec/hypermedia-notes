@@ -20,7 +20,7 @@ See [RESTful Web APIs](http://restfulwebapis.com) for a thorough description of 
 
 ## Design Elements
 
-### Base media types
+### Hypermedia types
 
 Provide hypermedia factors and leave room to layer on application-specific semantics.
 
@@ -31,32 +31,35 @@ Provide hypermedia factors and leave room to layer on application-specific seman
 * [JSON-LD](http://json-ld.org): JSON for Linking Data
 * [Hydra](http://www.markus-lanthaler.com/hydra): Hypermedia-Driven Web APIs
 * [JSON API](http://jsonapi.org)
-* [Collection+JSON](http://amundsen.com/media-types/collection)
-* [OData](http://www.odata.org)
+* [Home Documents for HTTP APIs](http://tools.ietf.org/html/draft-nottingham-json-home-03)
+* XLink
+* XForms
+* RDF
 
 ### Application-specific media types
 
-Types that fully define specific applications.
+Types that fully define specific applications. They may still make good base types for other
+applications that further specialize what they define.
 
+* [The Atom Publishing Protocol](https://tools.ietf.org/html/rfc5023)
 * [The Atom Syndication Format](https://tools.ietf.org/html/rfc4287)
+* [Collection+JSON](http://amundsen.com/media-types/collection)
+* [JSON Patch](http://tools.ietf.org/html/rfc6902)
+* [OData](http://www.odata.org)
+* [OpenSearch](http://www.opensearch.org)
+* [Problem Details for HTTP APIs](https://tools.ietf.org/html/draft-ietf-appsawg-http-problem-00)
+* [Status Documents for HTTP Resources](https://github.com/tavis-software/Tavis.Status)
+  * Operational Status
+  * Health checks?
 
 ### Machine-readable message-type descriptions / profiles
 
 * [ALPS](http://alps.io/spec/index.html)
 * [Hyperdescribe](https://github.com/smizell/hyperdescribe)
-
-### Supporting types
-
-* [Problem Details for HTTP APIs](https://tools.ietf.org/html/draft-ietf-appsawg-http-problem-00)
-* [Home Documents for HTTP APIs](http://tools.ietf.org/html/draft-nottingham-json-home-03)
-* [APIS.json](http://apisjson.org)
-* [Status Documents for HTTP Resources](https://github.com/tavis-software/Tavis.Status)
-  * Operational Status
-  * Health checks?
-* [JSON Patch](http://tools.ietf.org/html/rfc6902)
 * [JSON Schema](http://json-schema.org)
+* RDF Schema
 
-### Other supporting specs
+### Supporting specs
 
 * [Web Linking](https://tools.ietf.org/html/rfc5988)
 * [URI Template](https://tools.ietf.org/html/rfc6570)
@@ -110,6 +113,7 @@ a server framework could/should be minimal (e.g., [sinatra](http://www.sinatrarb
 * [Additional Link Relations](https://tools.ietf.org/html/rfc6903)
 * [ALPS registry](http://alps.io)
 * [schema.org](http://schema.org)
+* [Microformats Wiki](http://microformats.org/wiki/Main_Page)
 
 ### Service registries
 
