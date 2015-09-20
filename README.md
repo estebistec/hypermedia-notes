@@ -100,6 +100,8 @@ a server framework could/should be minimal (e.g., [sinatra](http://www.sinatrarb
 
 ### Concepts
 
+* [Microservice architecture](http://microservices.io)
+  * Including patterns and other resources
 * [H-Factors](http://amundsen.com/hypermedia/hfactor)
 
 ### Design advice
