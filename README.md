@@ -34,6 +34,7 @@ Provide hypermedia factors and leave room to layer on application-specific seman
 * [Home Documents for HTTP APIs](http://tools.ietf.org/html/draft-nottingham-json-home-03)
 * XLink
 * XForms
+* [HAL Forms](http://mamund.site44.com/misc/hal-forms/)
 * RDF
 
 ### Application-specific media types
@@ -95,6 +96,8 @@ a server framework could/should be minimal (e.g., [sinatra](http://www.sinatrarb
 * [Tyk](https://tyk.io)
 * [Consul](https://consul.io)
 * [API Umbrella](http://apiumbrella.io)
+* [APIMAN](http://www.apiman.io/latest/)
+* [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
 ## Resources
 
