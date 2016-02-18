@@ -59,6 +59,18 @@ applications that further specialize what they define.
 * [Hyperdescribe](https://github.com/smizell/hyperdescribe)
 * [JSON Schema](http://json-schema.org)
 * RDF Schema
+* [Open API Initiative](https://openapis.org)
+
+#### Modeling
+
+These usually generate some combination of documentation, server, and client. This is not the same
+thing as message-type descriptions and profiles, as these are meant to describe those things on
+specific trees of URLs. This usually (always) means a specific server or implementation.
+
+* [Swagger](http://swagger.io)
+* [RAML](http://raml.org)
+* [Blueprint](https://apiary.io/blueprint)
+* [I/O Docs](https://github.com/mashery/iodocs)
 
 ### Supporting specs
 
@@ -69,20 +81,9 @@ applications that further specialize what they define.
 
 ## Implementation Support
 
-### Modeling
-
-These usually generate some combination of documentation, server, and client. This is not the same
-thing as message-type descriptions and profiles, as these are meant to describe those things on
-specific trees of URLs. This usually (always) means a specific server or implementation.
-
-* [RAML](http://raml.org)
-* [Blueprint](https://apiary.io/blueprint)
-* [I/O Docs](https://github.com/mashery/iodocs)
-
 ### Frameworks
 
 * [NARWHL](http://www.narwhl.com)
-* [Swagger](http://swagger.io)
 * [Core API](http://www.coreapi.org)
 
 I find opinionated API frameworks to be detrimental. They never or rarely make clients and servers
