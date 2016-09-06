@@ -78,6 +78,7 @@ specific trees of URLs. This usually (always) means a specific server or impleme
 * [URI Template](https://tools.ietf.org/html/rfc6570)
 * [CURIES](http://www.w3.org/TR/curie)
 * [JSON Reference](http://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03)
+* [HTTP API Specs](https://pmhsfelix.github.io/http-api-specs/)
 
 ## Implementation Support
 
@@ -104,6 +105,7 @@ a server framework could/should be minimal (e.g., [sinatra](http://www.sinatrarb
 
 ### Concepts
 
+* [Web Concepts](http://webconcepts.info)
 * [Microservice architecture](http://microservices.io)
   * Including patterns and other resources
 * [H-Factors](http://amundsen.com/hypermedia/hfactor)
