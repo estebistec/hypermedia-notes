@@ -11,6 +11,9 @@ can make up an API design.
 
 See [RESTful Web APIs](http://restfulwebapis.com) for a thorough description of the design process.
 
+* [A Web API Design Methodology](https://www.infoq.com/articles/web-api-design-methodology) (article)
+* [API Design Methodology](https://www.infoq.com/presentations/api-design-methodology) (presentation video)
+
 ## Design Goals
 
 * Linking and forms to advertise possible next states (requests)
